@@ -2,9 +2,7 @@
 {
     partial class MainForm
     {
-        /// <summary>
-        ///  Required designer variable.
-        /// </summary>
+
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
@@ -48,7 +46,7 @@
             // methodComboBox
             // 
             methodComboBox.FormattingEnabled = true;
-            methodComboBox.Location = new Point(222, 33);
+            methodComboBox.Location = new Point(12, 115);
             methodComboBox.Name = "methodComboBox";
             methodComboBox.Size = new Size(200, 23);
             methodComboBox.TabIndex = 1;
@@ -60,7 +58,7 @@
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label1.Location = new Point(81, 9);
             label1.Name = "label1";
-            label1.Size = new Size(64, 21);
+            label1.Size = new Size(125, 21);
             label1.TabIndex = 2;
             label1.Text = "Выберите класс:";
             // 
@@ -68,9 +66,9 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(288, 9);
+            label2.Location = new Point(81, 80);
             label2.Name = "label2";
-            label2.Size = new Size(74, 21);
+            label2.Size = new Size(131, 21);
             label2.TabIndex = 3;
             label2.Text = "Выберите метод:";
             // 
@@ -78,16 +76,16 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(34, 59);
+            label3.Location = new Point(231, 59);
             label3.Name = "label3";
-            label3.Size = new Size(64, 21);
+            label3.Size = new Size(147, 21);
             label3.TabIndex = 4;
             label3.Text = "Введите парамтры:";
             // 
             // paramsPanel
             // 
             paramsPanel.FlowDirection = FlowDirection.TopDown;
-            paramsPanel.Location = new Point(12, 93);
+            paramsPanel.Location = new Point(245, 93);
             paramsPanel.Name = "paramsPanel";
             paramsPanel.Size = new Size(115, 24);
             paramsPanel.TabIndex = 5;
@@ -98,7 +96,7 @@
             executeButton.Name = "executeButton";
             executeButton.Size = new Size(75, 23);
             executeButton.TabIndex = 6;
-            executeButton.Text = "Execute";
+            executeButton.Text = "Выполнить ";
             executeButton.UseVisualStyleBackColor = true;
             executeButton.Click += ExecuteButton_Click;
             // 
@@ -108,7 +106,7 @@
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label4.Location = new Point(119, 154);
             label4.Name = "label4";
-            label4.Size = new Size(56, 21);
+            label4.Size = new Size(47, 21);
             label4.TabIndex = 7;
             label4.Text = "Итог:";
             // 
